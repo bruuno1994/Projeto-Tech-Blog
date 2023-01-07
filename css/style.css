@@ -1,0 +1,120 @@
+/* Limpar formatações padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: lightgray;
+}
+
+/* Layout */
+
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* Formatação do menu */
+
+a:link, a:visited {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: #f7b600;
+    transition: 1.05s;
+    font-weight: bold;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
+/* Formatações gerais */
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color:#f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+/* Lembrando que elementos Span, possuem características Inlines, e precisam ser alterados para Blocos, caso queriam  aplicar as formatações */
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.texto-lateral {
+font-size: 0.8em;
+padding: 5px;
+}
